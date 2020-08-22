@@ -5,10 +5,12 @@ import Contact from '../src/Components/Contacts';
 
 function App() {
   return (
-    <div className="row">
-        <div className="col-md-8 offset-md-1">
-          <Contact />
-        </div> 
+    <div className="container">
+      <div className="row">
+          <div className="col-md-12">
+            <Contact />
+          </div> 
+      </div>
     </div>
   );
 }
